@@ -11,7 +11,7 @@ public class WishListTest {
     WebDriver driver = new ChromeDriver();
     driver.get("https://fasttrackit.org/selenium-test");
 
-    driver.findElement(By.className("large")).click();
+    driver.findElement(By.xpath("//a[@class='logo']")).click();
     driver.findElement(By.linkText("SALE")).click();
     driver.findElement(By.linkText("VIEW DETAILS")).click();
     driver.findElement(By.className("link-wishlist")).click();
