@@ -23,6 +23,8 @@ public class RegisterTest {
         driver.findElement(By.name("middlename")).sendKeys("Eduard");
         driver.findElement(By.name("lastname")).sendKeys("Lotzi");
         driver.findElement(By.id("email_address")).sendKeys("maiereduard86@gmail.com");
+        
+        //aici nu imi place cum ai scris!
         driver.findElement(By.id("password")).sendKeys("password");
         driver.findElement(By.name("confirmation")).sendKeys("password");
         driver.findElement(By.className("checkbox")).click();
